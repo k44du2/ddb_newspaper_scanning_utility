@@ -22,7 +22,7 @@ It allows you to:
 2. **Snippet Extraction**
    - Extracts occurrences of each keyword from `plainpagefulltext`.
    - Captures context: 10 words before, 20 words after the match.
-   - Uses fuzzy matching to account for OCR errors (e.g., `s-lost` vs. `slost`).
+   - Uses fuzzy matching to account for OCR errors (e.g., `Gas-Waſſe` vs. `Gas-Waffe`).
    - Deduplicates similar snippets.
    - Outputs snippets to the `snippets/` directory.
 
